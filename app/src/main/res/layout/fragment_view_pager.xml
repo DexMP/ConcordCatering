@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.pager.ViewPagerFragment">
+
+    <ImageView
+        android:id="@+id/ViewPager_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/slide_1"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/ViewPager_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"/>
+
+    <TextView
+        android:id="@+id/ViewPager_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="left|center"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</FrameLayout>

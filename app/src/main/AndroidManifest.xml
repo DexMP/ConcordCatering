@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HeadActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.ConcordCatering_v2.NoActionBar">
 
