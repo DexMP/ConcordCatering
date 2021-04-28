@@ -1,15 +1,20 @@
 package com.example.concordcatering_v2.ui.home.pager;
 
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.concordcatering_v2.R;
+
+import java.io.PrintWriter;
 
 import static com.example.concordcatering_v2.data.Consts.ARGUMENT_PAGE_NUMBER;
 
@@ -45,7 +50,6 @@ public class ViewPagerFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_view_pager, null);
         initData();
         updateView();
-
         return view;
     }
 
