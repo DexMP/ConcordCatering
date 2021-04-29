@@ -21,15 +21,5 @@
         android:layout_gravity="center"
         android:layout_margin="70dp"/>
 
-    <TextView
-        android:id="@+id/ViewPager_text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:foregroundGravity="center"
-        android:gravity="left|center"
-        android:maxLines="2"
-        android:textColor="@color/white"
-        android:textSize="18sp" />
 
 </FrameLayout>

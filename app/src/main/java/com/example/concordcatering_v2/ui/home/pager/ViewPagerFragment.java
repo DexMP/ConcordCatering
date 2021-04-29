@@ -24,7 +24,6 @@ public class ViewPagerFragment extends Fragment {
     View view;
     ImageView background;
     ImageView logo;
-    TextView tvPage;
 
     // Var
     int pageNumber;
@@ -65,7 +64,6 @@ public class ViewPagerFragment extends Fragment {
     }
 
     protected void updateView() {
-        tvPage.setText("Page " + pageNumber);
 
         if (pageNumber == 0) {
             background.setImageResource(R.drawable.slide_1);
@@ -82,6 +80,5 @@ public class ViewPagerFragment extends Fragment {
     protected void initData() {
         background = (ImageView) view.findViewById(R.id.ViewPager_background);
         logo = (ImageView) view.findViewById(R.id.ViewPager_logo);
-        tvPage = (TextView) view.findViewById(R.id.ViewPager_text);
     }
 }
