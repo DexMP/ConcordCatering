@@ -1,4 +1,5 @@
 <resources>
+    <!-- Main Strings -->
     <string name="app_name">C&amp;C</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -7,9 +8,20 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Menu Strings -->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Text Strings -->
+    <string name="leader_company_text">ЛИДЕР КЕЙТЕРИНГА НЕ ТОЛЬКО РОССИИ, НО И ЕВРОПЫ</string>
+    <string name="rose_comp_text">Профессиональный кейтеринг на все случаи жизни</string>
+    <string name="large_text">Спасибо за интерес, который Вы проявили к компании «Concord Catering and Banqueting». Вот уже 20 лет наши клиенты получают все самое лучшее и совершенное. Все эти годы влиятельные политики, успешные бизнесмены, известные деятели культуры и искусства доверили проведения самых значимых в их жизни и карьере приемов компании «Конкорд кейтеринг».
+
+Мы провели более 20 000 мероприятий и обслужили более 2 000 000 человек. Concord Catering – это тщательно подобранная команда поваров и менеджеров, дизайнеров с многолетним опытом, хорошо обученный дружелюбный персонал, способный сделать Ваше мероприятие уникальным.
+
+Компания Concord Catering является эталоном ресторана выездного обслуживания. Доверяя свое мероприятие команде профессионалов, вы получаете наивысшее качество в идеальном исполнении на каждом этапе подготовки и реализации Вашей идеи торжества.
+
+По Вашему запросу на проведение мероприятия или торжества, мы предлагаем Вам индивидуальный вариант меню, наиболее подходящий для Вашего события. Провести дегустацию предложенных блюд, а так же выбрать варианты накрытия можно в нашем шоу-руме на наб. Лейтенанта Шмидта, д. 7. Подробная информация о нашей компании, площадках для проведения мероприятий, меню и более сотни вариантов сервировки столов Вы можете ознакомиться на нашем сайте: www.concord-catering.ru. В случае если у Вас возникнут вопросы, пожалуйста, свяжитесь с нами, и мы с удовольствием на них ответим.</string>
+
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".ui.home.HomeFragment">
 
     <ScrollView
@@ -13,12 +14,53 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
             android:orientation="vertical">
 
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/view_pager"
                 android:layout_width="match_parent"
                 android:layout_height="700px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="@font/text_comp_pro_thin"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:text="@string/leader_company_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/toolbar"
+                android:layout_marginTop="10pt"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="@font/rose_marena"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rose_comp_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="@font/text_comp_pro_thin"
+                android:gravity="left"
+                android:textSize="18sp"
+                android:text="@string/large_text"/>
 
         </LinearLayout>
 
