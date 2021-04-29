@@ -11,7 +11,6 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
-
     <fragment
         android:id="@+id/nav_viewpager"
         android:name="com.example.concordcatering_v2.ui.home.pager.ViewPagerFragment"
@@ -22,4 +21,17 @@
         android:name="com.example.concordcatering_v2.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.concordcatering_v2.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contacts"
+        tools:layout="@layout/fragment_contacts"/>
+
+    <fragment
+        android:id="@+id/nav_calc"
+        android:name="com.example.concordcatering_v2.ui.calc.CalcFragment"
+        android:label="@string/menu_calc"
+        tools:layout="@layout/fragment_calc"/>
+
 </navigation>
