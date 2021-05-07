@@ -29,7 +29,7 @@
 
             <include layout="@layout/fragment_maps"
                 android:layout_width="match_parent"
-                android:layout_height="800px"/>
+                android:layout_height="275dp"/>
 
         </LinearLayout>
 
